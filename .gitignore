@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+
+# Large raw dataset
+data/raw/
+
+# Local SQLite database
+db/olist.db
+
+# Generated processed data
+data/processed/
+
+# OS/editor files
+.DS_Store
+*.swp
